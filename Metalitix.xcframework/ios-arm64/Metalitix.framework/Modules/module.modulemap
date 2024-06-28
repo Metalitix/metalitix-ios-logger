@@ -1,0 +1,4 @@
+framework module Metalitix {
+  header "Metalitix-Swift.h"
+  requires objc
+}

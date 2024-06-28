@@ -1,0 +1,3508 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MetalitixLogger",
+        "printedName": "MetalitixLogger",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:surveyOptions:showDebug:clientIPAddress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetalitixLogger",
+                "printedName": "Metalitix.MetalitixLogger",
+                "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyOptions",
+                "printedName": "Metalitix.SurveyOptions",
+                "usr": "s:9Metalitix13SurveyOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Metalitix0A6LoggerC6apiKey13surveyOptions9showDebug15clientIPAddressACSS_AA06SurveyF0VSbSSSgtcfc",
+            "mangledName": "$s9Metalitix0A6LoggerC6apiKey13surveyOptions9showDebug15clientIPAddressACSS_AA06SurveyF0VSbSSSgtcfc",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startSession",
+            "printedName": "startSession(sceneView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)startSessionWithSceneView:",
+            "mangledName": "$s9Metalitix0A6LoggerC12startSession9sceneViewySo6UIViewC_tF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logEvent",
+            "printedName": "logEvent(chart:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)logEventWithChart:value:",
+            "mangledName": "$s9Metalitix0A6LoggerC8logEvent5chart5valueySS_SStF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logState",
+            "printedName": "logState(chart:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)logStateWithChart:value:",
+            "mangledName": "$s9Metalitix0A6LoggerC8logState5chart5valueySS_yptF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forceSend",
+            "printedName": "forceSend()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)forceSend",
+            "mangledName": "$s9Metalitix0A6LoggerC9forceSendyyF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateSession",
+            "printedName": "updateSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)updateSession",
+            "mangledName": "$s9Metalitix0A6LoggerC13updateSessionyyF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endSession",
+            "printedName": "endSession(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)endSession:",
+            "mangledName": "$s9Metalitix0A6LoggerC10endSessionyySbF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInactivityTimeout",
+            "printedName": "setInactivityTimeout(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)setInactivityTimeout:",
+            "mangledName": "$s9Metalitix0A6LoggerC20setInactivityTimeoutyySdF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAttribute",
+            "printedName": "setAttribute(chart:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)setAttributeWithChart:value:",
+            "mangledName": "$s9Metalitix0A6LoggerC12setAttribute5chart5valueySS_yptF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAttribute",
+            "printedName": "removeAttribute(chart:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)removeAttributeWithChart:",
+            "mangledName": "$s9Metalitix0A6LoggerC15removeAttribute5chartySS_tF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSurvey",
+            "printedName": "showSurvey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)showSurvey",
+            "mangledName": "$s9Metalitix0A6LoggerC10showSurveyyyF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addInactivityListener",
+            "printedName": "addInactivityListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)addInactivityListener:",
+            "mangledName": "$s9Metalitix0A6LoggerC21addInactivityListeneryyyycF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearInactivityListeners",
+            "printedName": "clearInactivityListeners()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)clearInactivityListeners",
+            "mangledName": "$s9Metalitix0A6LoggerC24clearInactivityListenersyyF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseSession",
+            "printedName": "pauseSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)pauseSession",
+            "mangledName": "$s9Metalitix0A6LoggerC12pauseSessionyyF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resumeSession",
+            "printedName": "resumeSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)resumeSession",
+            "mangledName": "$s9Metalitix0A6LoggerC13resumeSessionyyF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetalitixLogger",
+                "printedName": "Metalitix.MetalitixLogger",
+                "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)init",
+            "mangledName": "$s9Metalitix0A6LoggerCACycfc",
+            "moduleName": "Metalitix",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger",
+        "mangledName": "$s9Metalitix0A6LoggerC",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SurveyOptions",
+        "printedName": "SurveyOptions",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(surveyLogo:surveyBackgroundColor:surveyTextColor:surveyButtonColor:surveyButtonTextColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyOptions",
+                "printedName": "Metalitix.SurveyOptions",
+                "usr": "s:9Metalitix13SurveyOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Metalitix13SurveyOptionsV10surveyLogo0D15BackgroundColor0d4TextG00d6ButtonG00dihG0ACSS_S4Stcfc",
+            "mangledName": "$s9Metalitix13SurveyOptionsV10surveyLogo0D15BackgroundColor0d4TextG00d6ButtonG00dihG0ACSS_S4Stcfc",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Metalitix13SurveyOptionsV",
+        "mangledName": "$s9Metalitix13SurveyOptionsV",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MTXUserInteractionType",
+        "printedName": "MTXUserInteractionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "keyDown",
+            "printedName": "keyDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO7keyDownyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO7keyDownyA2CmF",
+            "moduleName": "Metalitix"
+          },
+          {
+            "kind": "Var",
+            "name": "keyPress",
+            "printedName": "keyPress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO8keyPressyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO8keyPressyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyUp",
+            "printedName": "keyUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO5keyUpyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO5keyUpyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mouseEnter",
+            "printedName": "mouseEnter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO10mouseEnteryA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO10mouseEnteryA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mouseLeave",
+            "printedName": "mouseLeave",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO10mouseLeaveyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO10mouseLeaveyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mouseOver",
+            "printedName": "mouseOver",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO9mouseOveryA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO9mouseOveryA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mouseOut",
+            "printedName": "mouseOut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO8mouseOutyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO8mouseOutyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mouseDown",
+            "printedName": "mouseDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO9mouseDownyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO9mouseDownyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mouseUp",
+            "printedName": "mouseUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO7mouseUpyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO7mouseUpyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mouseMove",
+            "printedName": "mouseMove",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO9mouseMoveyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO9mouseMoveyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mousePress",
+            "printedName": "mousePress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO10mousePressyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO10mousePressyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "touchTap",
+            "printedName": "touchTap",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO8touchTapyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO8touchTapyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "touchStart",
+            "printedName": "touchStart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO10touchStartyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO10touchStartyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "touchMove",
+            "printedName": "touchMove",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO9touchMoveyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO9touchMoveyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "touchEnd",
+            "printedName": "touchEnd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO8touchEndyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO8touchEndyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zoomStart",
+            "printedName": "zoomStart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO9zoomStartyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO9zoomStartyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zoomUpdate",
+            "printedName": "zoomUpdate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO10zoomUpdateyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO10zoomUpdateyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zoomEnd",
+            "printedName": "zoomEnd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO7zoomEndyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO7zoomEndyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO5stateyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO5stateyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Metalitix.MTXUserInteractionType.Type) -> Metalitix.MTXUserInteractionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTXUserInteractionType",
+                    "printedName": "Metalitix.MTXUserInteractionType",
+                    "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Metalitix.MTXUserInteractionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTXUserInteractionType",
+                        "printedName": "Metalitix.MTXUserInteractionType",
+                        "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO6customyA2CmF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO6customyA2CmF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO6encode2toys7Encoder_p_tKF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTXUserInteractionType",
+                "printedName": "Metalitix.MTXUserInteractionType",
+                "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTXUserInteractionType",
+                "printedName": "Metalitix.MTXUserInteractionType",
+                "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "Metalitix",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO9hashValueSivp",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO9hashValueSivp",
+            "moduleName": "Metalitix",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Metalitix22MTXUserInteractionTypeO9hashValueSivg",
+                "mangledName": "$s9Metalitix22MTXUserInteractionTypeO9hashValueSivg",
+                "moduleName": "Metalitix",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "Metalitix",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTXUserInteractionType",
+                "printedName": "Metalitix.MTXUserInteractionType",
+                "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Metalitix",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Metalitix22MTXUserInteractionTypeO11descriptionSSvp",
+            "mangledName": "$s9Metalitix22MTXUserInteractionTypeO11descriptionSSvp",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Metalitix22MTXUserInteractionTypeO11descriptionSSvg",
+                "mangledName": "$s9Metalitix22MTXUserInteractionTypeO11descriptionSSvg",
+                "moduleName": "Metalitix",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9Metalitix22MTXUserInteractionTypeO",
+        "mangledName": "$s9Metalitix22MTXUserInteractionTypeO",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MTXUserEvent",
+        "printedName": "MTXUserEvent",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sessionId:eventType:target:points:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTXUserEvent",
+                "printedName": "Metalitix.MTXUserEvent",
+                "usr": "s:9Metalitix12MTXUserEventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTXUserInteractionType",
+                "printedName": "Metalitix.MTXUserInteractionType",
+                "usr": "s:9Metalitix22MTXUserInteractionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreFoundation.CGPoint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Metalitix12MTXUserEventV9sessionId9eventType6target6pointsACSSSg_AA0b11InteractionG0OSo7CGPointVSayALGtcfc",
+            "mangledName": "$s9Metalitix12MTXUserEventV9sessionId9eventType6target6pointsACSSSg_AA0b11InteractionG0OSo7CGPointVSayALGtcfc",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTXUserEvent",
+                "printedName": "Metalitix.MTXUserEvent",
+                "usr": "s:9Metalitix12MTXUserEventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Metalitix12MTXUserEventV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9Metalitix12MTXUserEventV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Metalitix12MTXUserEventV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9Metalitix12MTXUserEventV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Metalitix",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Metalitix12MTXUserEventV",
+        "mangledName": "$s9Metalitix12MTXUserEventV",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SceneKitSceneHandle",
+        "printedName": "SceneKitSceneHandle",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SceneKitSceneHandle",
+                "printedName": "Metalitix.SceneKitSceneHandle",
+                "usr": "c:@M@Metalitix@objc(cs)SceneKitSceneHandle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Metalitix@objc(cs)SceneKitSceneHandle(im)init",
+            "mangledName": "$s9Metalitix08SceneKitB6HandleCACycfc",
+            "moduleName": "Metalitix",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didRenderScene:atTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "any SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNScene",
+                "printedName": "SceneKit.SCNScene",
+                "usr": "c:objc(cs)SCNScene"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Metalitix@objc(cs)SceneKitSceneHandle(im)renderer:didRenderScene:atTime:",
+            "mangledName": "$s9Metalitix08SceneKitB6HandleC8renderer_09didRenderB06atTimeySo16SCNSceneRenderer_p_So0J0CSdtF",
+            "moduleName": "Metalitix",
+            "objc_name": "renderer:didRenderScene:atTime:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Metalitix@objc(cs)SceneKitSceneHandle",
+        "mangledName": "$s9Metalitix08SceneKitB6HandleC",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "Metalitix"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appDebug",
+            "printedName": "appDebug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSLog",
+                "printedName": "os.OSLog",
+                "usr": "c:objc(cs)OS_os_log"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So9OS_os_logC9MetalitixE8appDebugABvpZ",
+            "mangledName": "$sSo9OS_os_logC9MetalitixE8appDebugABvpZ",
+            "moduleName": "Metalitix",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLog",
+                    "printedName": "os.OSLog",
+                    "usr": "c:objc(cs)OS_os_log"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So9OS_os_logC9MetalitixE8appDebugABvgZ",
+                "mangledName": "$sSo9OS_os_logC9MetalitixE8appDebugABvgZ",
+                "moduleName": "Metalitix",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)OS_os_log",
+        "moduleName": "os",
+        "isOpen": true,
+        "objc_name": "OS_os_log",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/PointState.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 15,
+      "value": "\"state.pressed\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/PointState.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 15,
+      "value": "\"state.updated\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/PointState.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 16,
+      "value": "\"state.released\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/PointState.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 18,
+      "value": "\"state.stationary\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/PointState.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 15,
+      "value": "\"state.pressed\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/PointState.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 15,
+      "value": "\"state.updated\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/PointState.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 16,
+      "value": "\"state.released\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/PointState.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 18,
+      "value": "\"state.stationary\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 4,
+      "value": "\"v2\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 4,
+      "value": "\"v1\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 6,
+      "value": "\"prod\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 7,
+      "value": "\"stage\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 815,
+      "length": 5,
+      "value": "\"api\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 16,
+      "value": "\"MTXEnvironment\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 925,
+      "length": 35,
+      "value": "\"https:\/\/metalitix-dev.aircards.io\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1003,
+      "length": 39,
+      "value": "\"https:\/\/metalitix-staging.aircards.io\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1084,
+      "length": 27,
+      "value": "\"https:\/\/app.metalitix.com\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggerParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1456,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Extensions\/JSONEncoder+FloatEncodingStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Extensions\/JSONEncoder+FloatEncodingStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Extensions\/JSONEncoder+FloatEncodingStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Extensions\/JSONEncoder+FloatEncodingStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Extensions\/JSONEncoder+FloatEncodingStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Extensions\/JSONEncoder+FloatEncodingStrategy.swift",
+      "kind": "FloatLiteral",
+      "offset": 514,
+      "length": 3,
+      "value": "2e4"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/MetalitixLogger.swift",
+      "kind": "FloatLiteral",
+      "offset": 281,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/MetalitixLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 448,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/MetalitixLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1050,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/MetalitixLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1151,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/MetalitixLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/MetalitixLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 15,
+      "value": "\"Metalitix.MetalitixLogger\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggingService.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 14,
+      "value": "\"xr-analytics\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggingService.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 16,
+      "value": "\"metric-surveys\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/LoggingService.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 26,
+      "value": "\"data-stream\/xr-analytics\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/LogRecordData.swift",
+      "kind": "StringLiteral",
+      "offset": 882,
+      "length": 10,
+      "value": "\"position\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/LogRecordData.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 11,
+      "value": "\"direction\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/LogRecordData.swift",
+      "kind": "StringLiteral",
+      "offset": 1023,
+      "length": 7,
+      "value": "\"local\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/LogRecordData.swift",
+      "kind": "StringLiteral",
+      "offset": 1089,
+      "length": 12,
+      "value": "\"attributes\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 21,
+      "value": "\"event.user.position\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 24,
+      "value": "\"event.user.interaction\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 21,
+      "value": "\"event.session.start\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 21,
+      "value": "\"event.session.pause\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 22,
+      "value": "\"event.session.resume\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 22,
+      "value": "\"event.session.update\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 19,
+      "value": "\"event.session.end\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 21,
+      "value": "\"event.user.position\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 24,
+      "value": "\"event.user.interaction\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 21,
+      "value": "\"event.session.start\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 21,
+      "value": "\"event.session.pause\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 22,
+      "value": "\"event.session.resume\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 22,
+      "value": "\"event.session.update\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 19,
+      "value": "\"event.session.end\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementEmojiButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 208,
+      "length": 4,
+      "value": "39.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementEmojiButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 250,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementEmojiButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 263,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementEmojiButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 295,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementEmojiButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 344,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementEmojiButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 391,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementEmojiButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 447,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementEmojiButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 500,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementEmojiButton.swift",
+      "kind": "StringLiteral",
+      "offset": 119,
+      "length": 21,
+      "value": "\"Metalitix.EngagementEmojiButton\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/Demo\/Extensions\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 13,
+      "value": "\"[Metalitix]\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 2852,
+      "length": 20,
+      "value": "\"Metalitix version:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 2899,
+      "length": 72,
+      "value": "\"The Metalitix Logger has been initialized with the following settings:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 2991,
+      "length": 18,
+      "value": "\"Session Started:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3028,
+      "length": 24,
+      "value": "\"Paused session with ID\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3072,
+      "length": 25,
+      "value": "\"Resumed session with ID\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3115,
+      "length": 23,
+      "value": "\"Ended session with ID\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3158,
+      "length": 25,
+      "value": "\"Custom metric recorded:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3200,
+      "length": 54,
+      "value": "\"The following has been transmitted to the dashboard:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3274,
+      "length": 76,
+      "value": "\"expects a non-null and non-empty value but received a null or empty value.\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3368,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3388,
+      "length": 10,
+      "value": "\"Executed\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 2852,
+      "length": 20,
+      "value": "\"Metalitix version:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 2899,
+      "length": 72,
+      "value": "\"The Metalitix Logger has been initialized with the following settings:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 2991,
+      "length": 18,
+      "value": "\"Session Started:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3028,
+      "length": 24,
+      "value": "\"Paused session with ID\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3072,
+      "length": 25,
+      "value": "\"Resumed session with ID\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3115,
+      "length": 23,
+      "value": "\"Ended session with ID\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3158,
+      "length": 25,
+      "value": "\"Custom metric recorded:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3200,
+      "length": 54,
+      "value": "\"The following has been transmitted to the dashboard:\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3274,
+      "length": 76,
+      "value": "\"expects a non-null and non-empty value but received a null or empty value.\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3368,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3388,
+      "length": 10,
+      "value": "\"Executed\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3457,
+      "length": 12,
+      "value": "\"logEvent()\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3487,
+      "length": 12,
+      "value": "\"logState()\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3521,
+      "length": 16,
+      "value": "\"setAttribute()\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3457,
+      "length": 12,
+      "value": "\"logEvent()\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3487,
+      "length": 12,
+      "value": "\"logState()\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3521,
+      "length": 16,
+      "value": "\"setAttribute()\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3613,
+      "length": 146,
+      "value": "\"The camera element is parented to your scene. This may produce unexpected results when recording the camera position to the Metalitix dashboard.\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3785,
+      "length": 146,
+      "value": "\"The scene element is parented to your camera. This may produce unexpected results when recording the camera position to the Metalitix dashboard.\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3613,
+      "length": 146,
+      "value": "\"The camera element is parented to your scene. This may produce unexpected results when recording the camera position to the Metalitix dashboard.\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Services\/DebugService.swift",
+      "kind": "StringLiteral",
+      "offset": 3785,
+      "length": 146,
+      "value": "\"The scene element is parented to your camera. This may produce unexpected results when recording the camera position to the Metalitix dashboard.\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/SceneHandle\/RealityKitSceneHandle.swift",
+      "kind": "Array",
+      "offset": 417,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/SceneHandle\/RealityKitSceneHandle.swift",
+      "kind": "Array",
+      "offset": 647,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/MTXUserEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2701,
+      "length": 11,
+      "value": "\"sessionId\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/MTXUserEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2774,
+      "length": 11,
+      "value": "\"eventName\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/MTXUserEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2848,
+      "length": 12,
+      "value": "\"eventGroup\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/MTXUserEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2922,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/MTXUserEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2992,
+      "length": 8,
+      "value": "\"target\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/MTXUserEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3059,
+      "length": 8,
+      "value": "\"points\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Entities\/MTXUserEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3126,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/SessionRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/SessionRecorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 658,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/LogStorage\/HttpLogStorage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/LogStorage\/HttpLogStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 34,
+      "value": "\"25vgCN01Kcla7YNFjB1NA2eeg6aGgF8V\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/LogStorage\/HttpLogStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 655,
+      "length": 17,
+      "value": "\"LogStorageQueue\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/LogStorage\/HttpLogStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 975,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/LogStorage\/HttpLogStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1069,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/LogStorage\/HttpLogStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4014,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Presenter\/EngagementSurveyPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Presenter\/EngagementSurveyPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Presenter\/EngagementSurveyPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 49,
+      "value": "\"metalitixLoggerEngagementSurveyResponseValueKey\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Presenter\/EngagementSurveyPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 55,
+      "value": "\"metalitixLoggerEngagementSurveyResponseIsSubmittedKey\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Presenter\/EngagementSurveyPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/FrameRateCounter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 195,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/FrameRateCounter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Interactor\/SceneHandle\/SceneKitSceneHandle.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 19,
+      "value": "\"Metalitix.SceneKitSceneHandle\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Extensions\/Notification.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 35,
+      "value": "\"MTXDidAddLoggerRecordNotification\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementSurveyView.swift",
+      "kind": "FloatLiteral",
+      "offset": 332,
+      "length": 5,
+      "value": "331.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementSurveyView.swift",
+      "kind": "FloatLiteral",
+      "offset": 374,
+      "length": 5,
+      "value": "109.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Views\/EngagementSurveyView.swift",
+      "kind": "FloatLiteral",
+      "offset": 415,
+      "length": 4,
+      "value": "41.0"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Documents\/Projects\/Aircards\/metalitix-logger\/Extensions\/Date+Timestamp.swift",
+      "kind": "FloatLiteral",
+      "offset": 166,
+      "length": 3,
+      "value": "1e3"
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 20,
+      "value": "\"emoji_shadow_color\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
+      "length": 21,
+      "value": "\"question_text_color\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 971,
+      "length": 27,
+      "value": "\"submit_button_title_color\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1225,
+      "length": 8,
+      "value": "\"border\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1355,
+      "length": 8,
+      "value": "\"emoji1\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1485,
+      "length": 8,
+      "value": "\"emoji2\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1615,
+      "length": 8,
+      "value": "\"emoji3\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1745,
+      "length": 8,
+      "value": "\"emoji4\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 8,
+      "value": "\"emoji5\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2001,
+      "length": 6,
+      "value": "\"logo\""
+    },
+    {
+      "filePath": "\/Users\/andreylopatin\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dpunnxvymscwhwaesjdmxakewimm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2142,
+      "length": 15,
+      "value": "\"submit_button\""
+    }
+  ]
+}
