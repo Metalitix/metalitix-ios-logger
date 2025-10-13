@@ -306,11 +306,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class UIView;
 @class NSString;
 SWIFT_CLASS("_TtC9Metalitix15MetalitixLogger")
 @interface MetalitixLogger : NSObject
-- (void)startSessionWithSceneView:(UIView * _Nonnull)sceneView;
+- (void)startSession;
 - (void)logEventWithChart:(NSString * _Nonnull)chart value:(NSString * _Nonnull)value;
 - (void)logStateWithChart:(NSString * _Nonnull)chart value:(id _Nonnull)value;
 - (void)clearAnimations;

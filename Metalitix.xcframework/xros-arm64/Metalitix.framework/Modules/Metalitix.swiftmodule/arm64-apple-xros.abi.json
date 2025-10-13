@@ -850,23 +850,17 @@
           {
             "kind": "Function",
             "name": "startSession",
-            "printedName": "startSession(sceneView:)",
+            "printedName": "startSession()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)startSessionWithSceneView:",
-            "mangledName": "$s9Metalitix0A6LoggerC12startSession9sceneViewySo6UIViewC_tF",
+            "usr": "c:@M@Metalitix@objc(cs)MetalitixLogger(im)startSession",
+            "mangledName": "$s9Metalitix0A6LoggerC12startSessionyyF",
             "moduleName": "Metalitix",
             "declAttributes": [
               "AccessControl",
@@ -4406,457 +4400,6 @@
         "moduleName": "Metalitix"
       },
       {
-        "kind": "TypeDecl",
-        "name": "SceneKitSceneHandle",
-        "printedName": "SceneKitSceneHandle",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SceneKitSceneHandle",
-                "printedName": "Metalitix.SceneKitSceneHandle",
-                "usr": "c:@M@Metalitix@objc(cs)SceneKitSceneHandle"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Metalitix@objc(cs)SceneKitSceneHandle(im)init",
-            "mangledName": "$s9Metalitix08SceneKitB6HandleCACycfc",
-            "moduleName": "Metalitix",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "clearAnimations",
-            "printedName": "clearAnimations()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9Metalitix08SceneKitB6HandleC15clearAnimationsyyF",
-            "mangledName": "$s9Metalitix08SceneKitB6HandleC15clearAnimationsyyF",
-            "moduleName": "Metalitix",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addAnimations",
-            "printedName": "addAnimations()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9Metalitix08SceneKitB6HandleC13addAnimationsyyF",
-            "mangledName": "$s9Metalitix08SceneKitB6HandleC13addAnimationsyyF",
-            "moduleName": "Metalitix",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "cameraData",
-            "printedName": "cameraData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Metalitix.UserCamera?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UserCamera",
-                    "printedName": "Metalitix.UserCamera",
-                    "usr": "s:9Metalitix10UserCameraV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9Metalitix08SceneKitB6HandleC10cameraDataAA10UserCameraVSgvp",
-            "mangledName": "$s9Metalitix08SceneKitB6HandleC10cameraDataAA10UserCameraVSgvp",
-            "moduleName": "Metalitix",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Metalitix.UserCamera?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserCamera",
-                        "printedName": "Metalitix.UserCamera",
-                        "usr": "s:9Metalitix10UserCameraV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9Metalitix08SceneKitB6HandleC10cameraDataAA10UserCameraVSgvg",
-                "mangledName": "$s9Metalitix08SceneKitB6HandleC10cameraDataAA10UserCameraVSgvg",
-                "moduleName": "Metalitix",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "animations",
-            "printedName": "animations",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Metalitix.MTXAnimation]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Metalitix.MTXAnimation]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MTXAnimation",
-                        "printedName": "Metalitix.MTXAnimation",
-                        "usr": "s:9Metalitix12MTXAnimationV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9Metalitix08SceneKitB6HandleC10animationsSayAA12MTXAnimationVGSgvp",
-            "mangledName": "$s9Metalitix08SceneKitB6HandleC10animationsSayAA12MTXAnimationVGSgvp",
-            "moduleName": "Metalitix",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Metalitix.MTXAnimation]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Metalitix.MTXAnimation]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "MTXAnimation",
-                            "printedName": "Metalitix.MTXAnimation",
-                            "usr": "s:9Metalitix12MTXAnimationV"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9Metalitix08SceneKitB6HandleC10animationsSayAA12MTXAnimationVGSgvg",
-                "mangledName": "$s9Metalitix08SceneKitB6HandleC10animationsSayAA12MTXAnimationVGSgvg",
-                "moduleName": "Metalitix",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "currentRecordData",
-            "printedName": "currentRecordData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Metalitix.LogRecordData?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LogRecordData",
-                    "printedName": "Metalitix.LogRecordData",
-                    "usr": "s:9Metalitix13LogRecordDataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9Metalitix08SceneKitB6HandleC17currentRecordDataAA03LogfG0VSgvp",
-            "mangledName": "$s9Metalitix08SceneKitB6HandleC17currentRecordDataAA03LogfG0VSgvp",
-            "moduleName": "Metalitix",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Metalitix.LogRecordData?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LogRecordData",
-                        "printedName": "Metalitix.LogRecordData",
-                        "usr": "s:9Metalitix13LogRecordDataV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9Metalitix08SceneKitB6HandleC17currentRecordDataAA03LogfG0VSgvg",
-                "mangledName": "$s9Metalitix08SceneKitB6HandleC17currentRecordDataAA03LogfG0VSgvg",
-                "moduleName": "Metalitix",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "framerate",
-            "printedName": "framerate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9Metalitix08SceneKitB6HandleC9framerateSiSgvp",
-            "mangledName": "$s9Metalitix08SceneKitB6HandleC9framerateSiSgvp",
-            "moduleName": "Metalitix",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9Metalitix08SceneKitB6HandleC9framerateSiSgvg",
-                "mangledName": "$s9Metalitix08SceneKitB6HandleC9framerateSiSgvg",
-                "moduleName": "Metalitix",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "renderer",
-            "printedName": "renderer(_:didRenderScene:atTime:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SCNSceneRenderer",
-                "printedName": "any SceneKit.SCNSceneRenderer",
-                "usr": "c:objc(pl)SCNSceneRenderer"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SCNScene",
-                "printedName": "SceneKit.SCNScene",
-                "usr": "c:objc(cs)SCNScene"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Metalitix@objc(cs)SceneKitSceneHandle(im)renderer:didRenderScene:atTime:",
-            "mangledName": "$s9Metalitix08SceneKitB6HandleC8renderer_09didRenderB06atTimeySo16SCNSceneRenderer_p_So0J0CSdtF",
-            "moduleName": "Metalitix",
-            "objc_name": "renderer:didRenderScene:atTime:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@Metalitix@objc(cs)SceneKitSceneHandle",
-        "mangledName": "$s9Metalitix08SceneKitB6HandleC",
-        "moduleName": "Metalitix",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "Available"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SceneHandle",
-            "printedName": "SceneHandle",
-            "usr": "s:9Metalitix11SceneHandleP",
-            "mangledName": "$s9Metalitix11SceneHandleP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -5505,20 +5048,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Metalitix"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Metalitix"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "Metalitix"
       },
@@ -7160,27 +6689,6 @@
       "value": "\"The scene element is parented to your camera. This may produce unexpected results when recording the camera position to the Metalitix dashboard.\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Documents\/Projects\/metalitix-ios-logger-internal\/metalitix-logger\/Interactor\/SceneHandle\/RealityKitSceneHandle.swift",
-      "kind": "Array",
-      "offset": 611,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/yehorbozhko\/Documents\/Projects\/metalitix-ios-logger-internal\/metalitix-logger\/Interactor\/SceneHandle\/RealityKitSceneHandle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 745,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/yehorbozhko\/Documents\/Projects\/metalitix-ios-logger-internal\/metalitix-logger\/Interactor\/SceneHandle\/RealityKitSceneHandle.swift",
-      "kind": "Array",
-      "offset": 890,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/yehorbozhko\/Documents\/Projects\/metalitix-ios-logger-internal\/metalitix-logger\/Entities\/MTXUserEvent.swift",
       "kind": "StringLiteral",
       "offset": 2691,
@@ -7503,79 +7011,79 @@
       "value": "1e3"
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 565,
       "length": 20,
       "value": "\"emoji_shadow_color\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 798,
+      "offset": 748,
       "length": 21,
       "value": "\"question_text_color\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 971,
+      "offset": 943,
       "length": 27,
       "value": "\"submit_button_title_color\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
+      "offset": 1255,
       "length": 8,
       "value": "\"border\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1355,
+      "offset": 1407,
       "length": 8,
       "value": "\"emoji1\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1485,
+      "offset": 1559,
       "length": 8,
       "value": "\"emoji2\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1615,
+      "offset": 1711,
       "length": 8,
       "value": "\"emoji3\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 1863,
       "length": 8,
       "value": "\"emoji4\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1875,
+      "offset": 2015,
       "length": 8,
       "value": "\"emoji5\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2001,
+      "offset": 2163,
       "length": 6,
       "value": "\"logo\""
     },
     {
-      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-iphoneos\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/yehorbozhko\/Library\/Developer\/Xcode\/DerivedData\/metalitix-logger-dozajpsrzsulzdcgtpqsojfevrzp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/metalitix-logger\/IntermediateBuildFilesPath\/metalitix-logger.build\/Release-xros\/Metalitix.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2142,
+      "offset": 2326,
       "length": 15,
       "value": "\"submit_button\""
     }

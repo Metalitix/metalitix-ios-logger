@@ -1,6 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios14.7 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Metalitix
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios14.7 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Metalitix
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import ARKit
 import AudioToolbox
 import Combine
 import CommonCrypto
@@ -13,30 +15,94 @@ import Swift
 import SwiftUI
 import UIKit
 import _Concurrency
+import _RealityKit_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+import simd
+public protocol SceneHandle {
+  #if compiler(>=5.3) && $NonescapableTypes
+  var cameraData: Metalitix.UserCamera? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var animations: [Metalitix.MTXAnimation]? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var currentRecordData: Metalitix.LogRecordData? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var framerate: Swift.Int? { get }
+  #endif
+  func clearAnimations()
+  func addAnimations()
+}
+public struct Vector3D : Swift.Codable, Swift.Equatable {
+  public init(x: Swift.Double, y: Swift.Double, z: Swift.Double)
+  public static func == (a: Metalitix.Vector3D, b: Metalitix.Vector3D) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CameraTransform : Swift.Codable {
+  public init(position: Metalitix.Vector3D, direction: Metalitix.Vector3D)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 @objc @objcMembers public class MetalitixLogger : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiKey: Swift.String, inactivityInterval: Swift.Int? = 120, surveyOptions: Metalitix.SurveyOptions? = nil, showDebug: Swift.Bool? = nil, clientIPAddress: Swift.String? = nil)
+  #endif
   @objc public func startSession(sceneView: UIKit.UIView)
   @objc public func logEvent(chart: Swift.String, value: Swift.String)
   @objc public func logState(chart: Swift.String, value: Any)
+  @objc public func clearAnimations()
   @objc public func forceSend()
   @objc public func updateSession()
   @objc public func endSession(_ force: Swift.Bool = false)
+  @objc public func isRunning() -> Swift.Bool
   @objc public func setAttribute(chart: Swift.String, value: Any)
   @objc public func clearAttribute(chart: Swift.String)
   @objc public func clearAttributes()
   @objc public func showSurvey()
   @objc public func addInactivityListener(_ listener: @escaping () -> ())
-  @objc public func clearInactivityListeners()
+  @objc public func removeInactivityListener()
   @objc public func pauseSession()
   @objc public func resumeSession()
   @objc deinit
 }
 public struct SurveyOptions {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(surveyMinInterval: Swift.Int? = 30, surveyMaxInterval: Swift.Int? = 180, surveyLogo: Swift.String? = nil, surveyBackgroundColor: Swift.String? = nil, surveyTextColor: Swift.String? = nil, surveyButtonColor: Swift.String? = nil, surveyButtonTextColor: Swift.String? = nil)
+  #endif
+}
+public protocol Renderer {
+  var cameraPosition: (Swift.Float, Swift.Float, Swift.Float) { get }
+  var cameraDirection: (Swift.Float, Swift.Float, Swift.Float) { get }
+  func handleTranslation(delta: CoreFoundation.CGPoint)
+  func handlePinch(delta: Swift.Double)
+  func switchCamera()
+  func setPaused(_ isPaused: Swift.Bool)
+  func setScale(_ scale: Swift.Float)
+}
+public class LoggingService {
+  public init()
+  @objc deinit
+}
+public struct LogRecordData : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_inheritsConvenienceInitializers @objc @objcMembers public class MetalitixLoggerSnap : Metalitix.MetalitixLogger {
+  #if compiler(>=5.3) && $NonescapableTypes
+  override public init(apiKey: Swift.String, inactivityInterval: Swift.Int? = 120, surveyOptions: Metalitix.SurveyOptions? = nil, showDebug: Swift.Bool? = nil, clientIPAddress: Swift.String? = nil)
+  #endif
+  public func startSession(cameraSettings: Metalitix.CameraSettings)
+  @objc override public func endSession(_ force: Swift.Bool = false)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func poll(cameraTransform: Metalitix.CameraTransform, animation: Metalitix.MTXAnimation? = nil)
+  #endif
+  @objc public func execute(funcName: Swift.String, funcParams: Swift.String)
+  @objc deinit
 }
 public enum MTXUserInteractionType : Swift.Codable {
   case keyDown
@@ -75,16 +141,137 @@ extension Metalitix.MTXUserInteractionType : Swift.CustomStringConvertible {
 extension os.OSLog {
   public static let appDebug: os.OSLog
 }
+public struct MTXAnimation : Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: Metalitix.MTXAnimation, rhs: Metalitix.MTXAnimation) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UserCamera : Swift.Codable {
+  public init(fieldOfView: Swift.Double, zFarPlane: Swift.Double, zNearPlane: Swift.Double, aspectRatio: Swift.Double)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CameraSettings : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(fieldOfView: Swift.Double, zFarPlane: Swift.Double, zNearPlane: Swift.Double, aspectRatio: Swift.Double, transform: Metalitix.CameraTransform, animations: [Metalitix.MTXAnimation]?)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct MTXUserEvent : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(sessionId: Swift.String?, eventType: Metalitix.MTXUserInteractionType, target: CoreFoundation.CGPoint, points: [CoreFoundation.CGPoint])
+  #endif
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@_hasMissingDesignatedInitializers @objc public class SceneKitSceneHandle : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @available(visionOS, unavailable)
+@objc public class SceneKitSceneHandle : ObjectiveC.NSObject {
   @objc deinit
 }
+@available(visionOS, unavailable)
+extension Metalitix.SceneKitSceneHandle : Metalitix.SceneHandle {
+  public func clearAnimations()
+  public func addAnimations()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var cameraData: Metalitix.UserCamera? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var animations: [Metalitix.MTXAnimation]? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var currentRecordData: Metalitix.LogRecordData? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var framerate: Swift.Int? {
+    get
+  }
+  #endif
+}
+@available(visionOS, unavailable)
 extension Metalitix.SceneKitSceneHandle : SceneKit.SCNSceneRendererDelegate {
   @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didRenderScene scene: SceneKit.SCNScene, atTime time: Foundation.TimeInterval)
+}
+public typealias Float3 = Swift.SIMD3<Swift.Float>
+public typealias Float4 = Swift.SIMD4<Swift.Float>
+public typealias Float4x4 = simd.simd_float4x4
+extension Swift.SIMD3 where Scalar == Swift.Float {
+  public init(_ float4: Metalitix.Float4)
+  public func length() -> Swift.Float
+  public func normalized() -> Metalitix.Float3
+}
+extension Swift.SIMD4 where Scalar == Swift.Float {
+  public func toFloat3() -> Metalitix.Float3
+}
+extension simd.simd_float4x4 {
+  public func translation() -> Metalitix.Float3
+  public func forward() -> Metalitix.Float3
+}
+extension simd.simd_float4x4 {
+  public var position: Swift.SIMD3<Swift.Float> {
+    get
+  }
+}
+extension simd.simd_float4x4 {
+  public var rotationMatrix: simd.simd_float3x3 {
+    get
+  }
+}
+extension Swift.SIMD4 where Scalar == Swift.Float {
+  public var xyz: Swift.SIMD3<Swift.Float> {
+    get
+  }
+}
+extension simd.simd_quatf {
+  public func toEulerAngles() -> Swift.SIMD3<Swift.Float>
+}
+extension simd.simd_float3x3 {
+  public func toEulerAngles() -> Swift.SIMD3<Swift.Float>
+}
+@_hasMissingDesignatedInitializers public class MTXHeadTracker {
+  public static let shared: Metalitix.MTXHeadTracker
+  public var deviceTransform: Metalitix.Float4x4 {
+    get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class VisionRealityKitSceneHandle : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Metalitix.VisionRealityKitSceneHandle : Metalitix.SceneHandle {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var cameraData: Metalitix.UserCamera? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var animations: [Metalitix.MTXAnimation]? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var currentRecordData: Metalitix.LogRecordData? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var framerate: Swift.Int? {
+    get
+  }
+  #endif
+  public func clearAnimations()
+  public func addAnimations()
 }
 extension Metalitix.MTXUserInteractionType : Swift.Equatable {}
 extension Metalitix.MTXUserInteractionType : Swift.Hashable {}
