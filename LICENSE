@@ -1,21 +1,67 @@
-MIT License
+# Metalitix Logger License Agreement
 
-Copyright (c) 2024 Metalitix
+6 May 2024
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Version 1
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Contents
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+[1. Definitions](#1-definitions)
+
+[2. Grant of License](#2-grant-of-license)
+
+[3. Restrictions](#3-restrictions)
+
+[4. Termination and Post-Termination Obligations](#4-termination-and-post-termination-obligations)
+
+[5. Right to Audit](#5-right-to-audit)
+
+[6. License Updates and Addendums](#6-license-updates-and-addendums)
+
+[7. Intellectual Property](#7-intellectual-property)
+
+[8. Disclaimer of Warranty](#8-disclaimer-of-warranty)
+
+[9. Limitation of Liability](#9-limitation-of-liability)
+
+[10. Governing Law](#10-governing-law)
+
+
+### 1. Definitions
+- "Logger" refers to any software developed by Aircards Inc., DBA Metalitix. designed to gather and transmit analytics data to the Metalitix dashboard from various platforms including, but not limited to, Unity, Unreal, three.js, ARKit, and ARCore.
+- "License" means the terms and conditions for use, reproduction, and distribution as defined by this document.
+- A “Project” is a unit of organization for tracking and analyzing user interactions within a specific digital experience.
+- A “Workspace” is a group that organizes projects, allowing for the sharing of a common group of users and billing information across multiple projects.
+- "You" or "Your" refers to the individual or legal entity exercising permissions granted by this License.
+
+### 2. Grant of License
+Subject to the terms of this License, Aircards Ltd., doing business as Metalitix, grants you a worldwide, non-exclusive, non-transferable, royalty-free license to use the Logger solely for the purpose of sending data to the Metalitix platform. You, the licensee, are responsible for obtaining all necessary consents and for adhering to all relevant data protection and privacy laws and regulations applicable in the jurisdictions in which you operate. When applicable, consent must be granted by the user prior to the collection of personally identifiable information. You must ensure that the Logger is not used to collect, process, or transmit sensitive information, such as payment card details or personal health information.
+
+### 3. Restrictions
+- You may not modify, adapt, merge, translate, reverse engineer, decompile, disassemble, or create derivative works based on the Logger.
+- Redistribution of the Logger in its original or modified form is prohibited without explicit permission from Metalitix.
+- You are only permitted to use the Logger for its designated purpose, which is to transmit data to an active Project within a Workspace on the Metalitix platform where you are a registered member.
+- The Logger may not be used in any manner that could harm Metalitix, its services, users, or any third party.
+- You are responsible for adhering to the terms and conditions of the platform into which the Logger is being integrated. This includes compliance with any platform-specific policies, regulations, and operational guidelines.
+
+### 4. Termination and Post-Termination Obligations
+Metalitix reserves the right to terminate this License at any time without notice. Upon termination, you must immediately cease all use of the Logger and destroy all copies, full or partial, of the Logger.  Upon termination of this License, for any reason, and upon request by Metalitix, you agree to delete all copies of the Metalitix Logger in your possession within thirty (30) days of such request. You must provide written certification to Metalitix that all copies have been destroyed unless otherwise directed by Metalitix.
+
+### 5. Right to Audit
+Metalitix reserves the right to audit your use of the Metalitix Logger and the data collected by it to ensure compliance with the terms of this License. You agree to cooperate with Metalitix's audit and provide reasonable access to your software implementation for the purposes of conducting these audits. Audits will be conducted during regular business hours and with reasonable notice to minimize disruption to your operations. Any findings of non-compliance discovered during such audits may result in immediate termination of this License and other legal actions as deemed necessary by Metalitix.
+
+### 6. License Updates and Addendums
+- Metalitix reserves the right to amend the terms and conditions of this License at any time. Updates to the License will be communicated through a notice on the Metalitix website and via the relevant public repositories. Continued use of the Metalitix Logger after such communications shall constitute your consent to such changes.
+- This License may be supplemented with additional terms and conditions applicable to specific platforms as outlined in separate addendums. These addendums provide detailed terms tailored to the operational and integration aspects of each specific platform. Upon your acceptance of this License, the terms contained in any relevant platform-specific addendums also form part of this License and are equally binding.
+
+### 7. Intellectual Property
+This License does not transfer from Metalitix to you any Metalitix or third-party intellectual property, and all right, title, and interest in and to such property will remain (as between the parties) solely with Metalitix.
+
+### 8. Disclaimer of Warranty
+The Logger is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+### 9. Limitation of Liability
+In no event shall Metalitix be liable for any claim, damages, or other liability, whether in an action of contract, tort or otherwise, arising from, out of, or in connection with the Logger or the use or other dealings in the Logger.
+
+### 10. Governing Law
+This License shall be governed by and construed in accordance with the laws of the United Kingdom, and any disputes relating to this License shall be subject to the exclusive jurisdiction of the courts of the United Kingdom.
